@@ -5,8 +5,8 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="w-full h-[90vh] flex gap-5 bg-black overflow-hidden">
-      <div className="w-[30%] flex flex-col justify-center items-start gap-5">
-        <div className="bg-white w-[150px] md:w-[300px] h-[50px] rounded-r-3xl flex justify-center items-center">
+      <div className="w-[20%] flex flex-col justify-center items-start gap-5">
+        <div className=" sticky bg-white w-[150px] md:w-[200px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
             href="/"
@@ -14,7 +14,7 @@ export default function Home() {
             Home
           </Link>
         </div>
-        <div className="bg-white w-[150px] md:w-[300px] h-[50px] rounded-r-3xl flex justify-center items-center">
+        <div className="bg-white w-[150px] md:w-[225px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
             href="/about"
@@ -22,7 +22,7 @@ export default function Home() {
             About
           </Link>
         </div>
-        <div className="bg-white w-[150px] md:w-[300px] h-[50px] rounded-r-3xl flex justify-center items-center">
+        <div className="bg-white w-[150px] md:w-[250px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
             href="/photos"
@@ -30,7 +30,7 @@ export default function Home() {
             Photos
           </Link>
         </div>
-        <div className="bg-white w-[150px] md:w-[300px] h-[50px] rounded-r-3xl flex justify-center items-center">
+        <div className="bg-white w-[150px] md:w-[275px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
             href="/contact"
@@ -39,7 +39,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="w-[70%] flex flex-col justify-center items-center">
+      <div className="w-[80%] flex flex-col justify-center items-center">
         <h1
           className={`${raleway.className} antialiased text-white text-5xl text-center p-2`}
         >
