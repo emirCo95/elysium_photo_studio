@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="bg-white w-[150px] md:w-[225px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
-            href="/about"
+            href="#about"
           >
             About
           </Link>
@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="bg-white w-[150px] md:w-[250px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
-            href="/photos"
+            href="#photos"
           >
             Photos
           </Link>
@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="bg-white w-[150px] md:w-[275px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
-            href="/contact"
+            href="#contact"
           >
             Contact
           </Link>
