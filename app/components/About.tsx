@@ -10,10 +10,10 @@ const About = () => {
       <div
         className={`${raleway.className} antialiased w-[80%] flex flex-col justify-center items-center ml-40 md:ml-60 `}
       >
-        <h1 className="w-[500px] md:w-[500px]  text-black text-3xl md:text-5xl text-center p-2">
+        <h1 className="w-[500px] md:w-[700px]  text-black text-3xl md:text-5xl text-center p-2">
           About Our Photo Studio
         </h1>
-        <p className="w-[500px] md:w-[500px] text-black text-xl text-center p-2">
+        <p className="w-[500px] md:w-[700px] text-black text-xl text-center p-2">
           Welcome to Elysium, where creativity meets professionalism! Our studio
           is dedicated to capturing life&apos;s most beautiful moments with
           style and precision.
