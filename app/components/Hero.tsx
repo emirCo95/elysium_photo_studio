@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Hero = () => {
   return (
     <div className="w-full h-[90vh] flex gap-5 bg-black overflow-hidden">
-      <div className="fixed mt-60 w-[20%] flex flex-col justify-center items-start gap-5">
+      <div className="fixed mt-56 w-[20%] flex flex-col justify-center items-start gap-5">
         <div className="bg-white w-[150px] md:w-[200px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
