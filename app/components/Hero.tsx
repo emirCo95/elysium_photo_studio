@@ -5,17 +5,20 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className="w-full h-[90vh] flex gap-5 bg-black overflow-hidden">
+    <div
+      id="home"
+      className="w-full h-[100vh] flex gap-5 bg-black overflow-hidden"
+    >
       <div className="fixed mt-56 w-[20%] flex flex-col justify-center items-start gap-5">
-        <div className="bg-white w-[150px] md:w-[200px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
+        <div className="bg-white w-[150px] lg:w-[200px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
-            href="/"
+            href="#home"
           >
             Home
           </Link>
         </div>
-        <div className="bg-white w-[150px] md:w-[225px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
+        <div className="bg-white w-[150px] lg:w-[225px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
             href="#about"
@@ -23,7 +26,7 @@ const Hero = () => {
             About
           </Link>
         </div>
-        <div className="bg-white w-[150px] md:w-[250px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
+        <div className="bg-white w-[150px] lg:w-[250px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
             href="#photos"
@@ -31,7 +34,7 @@ const Hero = () => {
             Photos
           </Link>
         </div>
-        <div className="bg-white w-[150px] md:w-[275px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
+        <div className="bg-white w-[150px] lg:w-[275px] h-[50px] rounded-r-3xl flex justify-center items-center transition-all duration-500 hover:scale-105">
           <Link
             className={`${anon_pro.className} antialiased text-black text-xl`}
             href="#contact"
